@@ -21,4 +21,94 @@ a {
   padding: 120px 0;
 }
 
+/* banner content part css start */
+.banner_content .banner_heading {
+  text-align: center;
+}
+
+.banner_content .banner_heading h4 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #0149a1;
+}
+
+.banner_content .banner_heading p {
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #5d6981;
+}
+
+/* common heading part css start */
+.common_btn {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.common_btn a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  background: #ff2d55;
+  padding: 20px 70px;
+  border: 1px solid #ff2d55;
+  border-radius: 30px;
+  transition: all .4s;
+}
+
+.common_btn a:hover {
+  color: #ff2d55;
+  background: transparent;
+  border: 1px solid #ff2d55;
+}
+
+/* common heading part css end */
+
+/* macbook part css start */
+
+.macbook {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.macbook a {
+  position: absolute;
+  top: 38%;
+  left: 41.6%;
+  font-weight: 700;
+  font-size: 1.7rem;
+  padding: 7px 20px;
+  border-radius: 30px;
+  color: #0149a1;
+  background-color: #fff;
+}
+
+.macbook a i {
+  color: #5d6981;
+  margin-left: 12px;
+}
+
+.mac_design.left {
+  text-align: right;
+}
+
+.mac_design.left img {
+  transform: translate(220px, 30px);
+  width: 320px;
+}
+
+.mac_design.right {
+  text-align: left;
+}
+
+.mac_design.right img {
+  transform: translate(-145px, 15px);
+  width: 220px;
+}
+
+/* macbook part css end */
+
+/* banner content part css end */
+
 /* top section part css end */
