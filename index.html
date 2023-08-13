@@ -4,52 +4,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pax Template</title>
 
-  <link rel="stylesheet" href="css//bootstrap.min.css">
-  <link rel="stylesheet" href="css/header.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+    integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/header.css">
+
 </head>
 
 <body>
 
+
+  <!-- header part html start -->
   <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a class="nav-logo" href="#">Tahmeed</a>
+    <!-- navbar part css start -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="Image/logo-navbar.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item me-3 me-lg-0 d-flex icon_box">
+              <a class="nav-link facebook" href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a class="nav-link twitter" href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
 
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="#" class="nav-link present">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Feature</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Service</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-        </ul>
-
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+            </li>
+          </ul>
         </div>
-
-      </nav>
-    </div>
+      </div>
+    </nav>
+    <!-- navbar part css end -->
   </header>
+  <!-- header part html end -->
 
-  <!-- js file connected -->
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
-  <!-- js file connected -->
+  <!-- main part html start -->
+  <main class="main">
+    <!-- top section part html start -->
+    <div class="top_section">
 
+      <!-- banner heading part html start -->
+      <div class="banner_heading">
+        <h4>Check our creativity</h4>
+        <p>We are the best and we know it!</p>
+        <div class="common_btn">
+          <a href="#">Ask for price</a>
+        </div>
+      </div>
+
+      <!-- banner heading part html end -->
+
+    </div>
+
+    <!-- top section part html end -->
+  </main>
+
+  <!-- main part html end -->
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/script.js"></script>
 </body>
 
 </html>
