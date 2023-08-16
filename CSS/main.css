@@ -18,6 +18,10 @@ a {
 /* top section part css start */
 .top_section {
   background: #edeff1;
+}
+
+.top_section_overlay {
+  background: linear-gradient(#fff 10%, #dadce0 60%, #fff);
   padding: 120px 0;
 }
 
@@ -33,19 +37,19 @@ a {
 }
 
 .banner_content .banner_heading p {
-  font-weight: 300;
+  font-weight: 100;
   font-size: 2.5rem;
   color: #5d6981;
 }
 
-/* common heading part css start */
-.common_btn {
+/* common button part css start */
+.common_btn.red {
   margin-top: 100px;
   margin-bottom: 120px;
   text-align: center;
 }
 
-.common_btn a {
+.common_btn.red a {
   font-weight: 700;
   font-size: 1.5rem;
   color: #fff;
@@ -56,13 +60,13 @@ a {
   transition: all .4s;
 }
 
-.common_btn a:hover {
+.common_btn.red a:hover {
   color: #ff2d55;
   background: transparent;
   border: 1px solid #ff2d55;
 }
 
-/* common heading part css end */
+/* common button part css end */
 
 /* macbook part css start */
 
@@ -111,4 +115,260 @@ a {
 
 /* banner content part css end */
 
+/* service part css start */
+.service_row {
+  padding-top: 60px;
+}
+
+.service_row .service_content {
+  text-align: center;
+}
+
+.service_content img {
+  padding-bottom: 30px;
+}
+
+.service_content h4 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #5d6981;
+  margin-bottom: 20px;
+}
+
+.service_content p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #5d6981;
+}
+
+/* service part css end */
+
 /* top section part css end */
+
+/* middle section part css start */
+
+/* creative part css start */
+.creative {
+  background: url(../Image/creative-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  border-bottom: 7px solid #fff;
+}
+
+/* creative part css end */
+
+/* common head part css start */
+.common_btn.blue {
+  margin-top: 240px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.common_btn.blue a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  background: #0149a1;
+  padding: 20px 70px;
+  border: 1px solid #0149a1;
+  border-radius: 30px;
+  transition: all .4s;
+  box-shadow: 5px 20px 20px 25px #fff;
+}
+
+/* common head part css end */
+
+/* work part css start */
+.work {
+  background: #0149a1;
+  padding: 100px 0;
+}
+
+.work .work_heading {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.work .work_heading h4 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #fff;
+}
+
+.work .work_heading p {
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.work .work_content {
+  text-align: right;
+}
+
+.work .work_text {
+  padding-left: 20px;
+}
+
+.work .work_text p {
+  font-weight: 100;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+/* work part css end */
+
+/* common head part css start */
+.common_btn.white {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.common_btn.white a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #0149a1;
+  background: #fff;
+  padding: 20px 70px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transition: all .4s;
+}
+
+.common_btn.white a:hover {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* common head part css end */
+
+/* middle section part css end */
+
+/* bottom section part css start */
+
+/* slider part css start */
+.slider_row {
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.slider_row .slider_content {
+  text-align: center;
+}
+
+.slider_row .slider_content img {
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+.slider_row .slider_content .quote {
+  font-weight: 400;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #5d6981;
+}
+
+.slider_row .slider_content .source {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #5d6981;
+}
+
+.slider_row .slider_content .source .source_link {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #5d6981;
+  text-decoration: underline;
+}
+
+.icon_left {
+  position: absolute;
+  top: 50%;
+  left: -3.7%;
+  font-size: 2rem;
+  color: #5d6981;
+
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_right {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  font-size: 2rem;
+  color: #5d6981;
+
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* slider part css end */
+
+/* team part css start */
+.team {
+  padding: 100px 0;
+  background: #edeff1;
+}
+
+.team .team_heading {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.team .team_heading h4 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #0149a1;
+}
+
+.team .team_heading p {
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #5d6981;
+}
+
+.team .team_img_box {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.team .team_img_box img {
+  padding-bottom: 30px;
+}
+
+.team .team_img_box h4 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #5d6981;
+  margin-bottom: 20px;
+}
+
+.team .team_img_box p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #5d6981;
+}
+
+/* team part css end */
+
+
+/* bottom section part css end */
