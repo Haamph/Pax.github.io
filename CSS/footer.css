@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 100px 0 60px;
+  background: #0149a1;
+}
+
+.footer .footer_content {
+  padding-bottom: 100px;
+}
+
+.footer_content .footer_box .box_item .box_link {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #fff;
+  transition: all .4s;
+  text-decoration: underline .5px #fff;
+}
+
+.footer_content .footer_box .box_item .box_link:hover {
+  text-decoration: underline 2px #fff;
+}
+
+/* credit part css start */
+.credit .credit_content {
+  text-align: center;
+}
+
+.credit .credit_content p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.credit .credit_content p a {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: all .4s;
+  text-decoration: underline .5px #fff;
+}
+
+.credit .credit_content p a:hover {
+  text-decoration: underline 2px #fff;
+}
+
+/* credit part css end */
