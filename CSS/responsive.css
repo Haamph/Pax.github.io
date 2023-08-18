@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 380px) and (max-width: 575px) {
+
+  /* navbar part html start */
+  .navbar-brand img {}
+
+
+
+  /* navbar part html end */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  ...
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  ...
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  ...
+}

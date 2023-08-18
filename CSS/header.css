@@ -40,24 +40,29 @@ a {
   border-radius: 30px;
 }
 
-.navbar-nav .icon_box {
-  margin-left: 10px;
+.navbar .icon_box .nav-item {
+  margin-left: 11px;
 }
 
-.navbar-nav .icon_box .nav-link {
-  margin-left: 7px;
-}
-
-.navbar-nav .icon_box .nav-link.facebook {
-  padding: 7px 17px;
+.navbar .icon_box .facebook {
+  padding: 11px 17px;
   border: 1px solid #3c5a99;
   border-radius: 30px;
   color: #3c5a99;
 }
 
-.navbar-nav .icon_box .nav-link.twitter {
-  padding: 7px 13px;
+.navbar .icon_box .twitter {
+  padding: 11px 12px;
   border: 1px solid #28aae1;
   border-radius: 30px;
   color: #28aae1;
+}
+
+.navbar .icon_box .nav-link i {
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+  width: 3.5em;
+  height: 3.5em;
 }
