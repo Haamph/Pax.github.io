@@ -1,53 +1,571 @@
-* {
-  padding: 0;
-  margin: 0;
-  outline: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 62.5%;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 380px) and (max-width: 575px) {
 
-  /* navbar part html start */
-  .navbar-brand img {}
+  /* navbar part css start */
+  .navbar-nav {
+    padding-top: 30px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    border: none;
+  }
+
+  .navbar-nav .nav-item .nav-link.active {
+    border: none;
+  }
+
+  .navbar .icon_box .nav-item {
+    margin: 0 10px;
+  }
+
+  /* navbar part css end */
 
 
+  /* top section part css start */
+  .top_section_overlay {
+    padding: 90px 0;
+  }
 
-  /* navbar part html end */
+  /* top section part css end */
+
+  /* banner part css start */
+  .banner_content .banner_heading h4 {
+    font-size: 3.5rem;
+  }
+
+  .banner_content .banner_heading p {
+    font-size: 1.8rem;
+  }
+
+  .common_btn.red {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+  .common_btn.red a {
+    font-size: 1.4rem;
+    padding: 14px 33px;
+  }
+
+  .mac_design.right img {
+    transform: translate(215px, -320px);
+    width: 150px;
+  }
+
+  .mac_design.left img {
+    transform: translate(-200px, 240px);
+    width: 190px;
+  }
+
+  .macbook a {
+    top: 33%;
+    left: 36.6%;
+    font-size: 1.4rem;
+  }
+
+  /* banner part css end */
+
+  /* service row css start */
+  .service_row .service_content {
+    margin: 20px 0;
+  }
+
+  .service_content h4 {
+    font-size: 2.2rem;
+  }
+
+  .service_content p {
+    font-size: 1.6rem;
+  }
+
+  /* service row css end */
+
+  /* creative part css start */
+  .creative {
+    padding: 0;
+  }
+
+  .common_btn.blue a {
+    font-size: 1.4rem;
+    padding: 14px 35px;
+  }
+
+  /* creative part css end */
+
+  /* work part css start */
+  .work .work_heading h4 {
+    font-size: 3rem;
+  }
+
+  .work .work_heading p {
+    font-weight: 100;
+    font-size: 2.2rem;
+    color: #fff;
+  }
+
+  .work .work_text p {
+    font-size: 1.6rem;
+    margin-top: 20px;
+  }
+
+  .common_btn.white {
+    margin-top: 60px;
+  }
+
+  .common_btn.white a {
+    font-size: 1.4rem;
+    padding: 14px 35px;
+  }
+
+  /* work part css end */
+
+  /* slider part css start */
+  .slider_row .slider_content {
+    padding: 0 10px;
+  }
+
+  .icon_left {
+    top: 114%;
+    left: 33%;
+  }
+
+  .icon_right {
+    top: 114%;
+    left: 58%;
+  }
+
+  /* slider part css end */
+
+  /* team part css start */
+  .team {
+    padding: 60px 0;
+  }
+
+  .team .team_heading h4 {
+    font-size: 3rem;
+  }
+
+  .team .team_heading p {
+    font-size: 2.2rem;
+  }
+
+  .team .team_img_box {
+    padding: 12px 10px;
+  }
+
+  .team .team_img_box h4 {
+    font-size: 2.2rem;
+  }
+
+  .team .team_img_box p {
+    font-size: 1.6rem;
+  }
+
+  /* team part css end */
+
+  /* footer part css start */
+  .footer {
+    padding: 60px 0 30px;
+  }
+
+  .footer .footer_content {
+    padding-bottom: 60px;
+  }
+
+  .footer_content .footer_box .box_item .box_link {
+    font-size: 1.6rem;
+  }
+
+  /* footer part css end */
 
 }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  ...
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* navbar part css start */
+  .navbar-nav {
+    padding-top: 30px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    border: none;
+  }
+
+  .navbar-nav .nav-item .nav-link.active {
+    border: none;
+  }
+
+  .navbar .icon_box .nav-item {
+    margin: 0 10px;
+  }
+
+  /* navbar part css end */
+
+  /* top section part css start */
+  .top_section_overlay {
+    padding: 60px 0;
+  }
+
+  /* top section part css end */
+
+  /* banner part css start */
+  .banner_content .banner_heading h4 {
+    font-size: 4rem;
+  }
+
+  .banner_content .banner_heading p {
+    font-size: 2rem;
+  }
+
+  .common_btn.red a {
+    padding: 15px 50px;
+  }
+
+  /* banner part css end */
+
+  /* macbook row css start */
+  .macbook a {
+    top: 37%;
+    left: 40%;
+  }
+
+  .mac_design.left img {
+    transform: translate(-260px, 100px);
+    width: 280px;
+  }
+
+  .mac_design.right img {
+    transform: translate(375px, -150px);
+    width: 180px;
+  }
+
+  /* macbook row css end */
+
+  /* service part css start */
+  .service_row .service_content {
+    margin-bottom: 30px;
+  }
+
+  .service_content h4 {
+    font-size: 2.5rem;
+  }
+
+  .service_content p {
+    font-size: 1.6rem;
+  }
+
+  /* service part css end */
+
+  /* creative part css start */
+  .creative {
+    padding: 20px 0;
+  }
+
+  .common_btn.blue a {
+    padding: 15px 50px;
+  }
+
+  /* creative part css end */
+
+  /* work part css start */
+  .work {
+    padding: 60px 0;
+  }
+
+  .work .work_heading h4 {
+    font-size: 4rem;
+  }
+
+  .work .work_heading p {
+    font-size: 2rem;
+  }
+
+  .work .work_text p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .common_btn.white a {
+    padding: 15px 50px;
+  }
+
+  /* work part css end */
+
+  /* slider part css start */
+  .slider_row {
+    padding: 80px 0;
+  }
+
+  .icon_left {
+    top: 114%;
+    left: 33%;
+  }
+
+  .icon_right {
+    top: 114%;
+    left: 60%;
+  }
+
+  .slider_row .slider_content .quote {
+    font-size: 1.6rem;
+  }
+
+  /* slider part css end */
+
+  /* team part css start */
+  .team {
+    padding: 60px 0;
+  }
+
+  .team .team_heading h4 {
+    font-size: 4rem;
+  }
+
+  .team .team_heading p {
+    font-size: 2rem;
+  }
+
+  .team .team_img_box {
+    padding: 25px 10px;
+  }
+
+  .team .team_img_box h4 {
+    font-size: 2.5rem;
+  }
+
+  .team .team_img_box p {
+    font-size: 1.6rem;
+  }
+
+  /* team part css end */
+
+  /* footer part css start */
+  .footer {
+    padding: 60px 0 35px;
+  }
+
+  .footer .footer_content {
+    padding-bottom: 70px;
+  }
+
+  .footer_content .footer_box .box_item .box_link {
+    font-size: 1.6rem;
+  }
+
+  .credit .credit_content p {
+    font-size: 1.7rem;
+  }
+
+  /* footer part css end */
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  ...
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* navbar part css start */
+  .navbar-nav {
+    padding-top: 30px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    border: none;
+  }
+
+  .navbar-nav .nav-item .nav-link.active {
+    border: none;
+  }
+
+  .navbar .icon_box .nav-item {
+    margin: 0 10px;
+  }
+
+  /* navbar part css end */
+
+  /* top section css start */
+  .top_section_overlay {
+    padding: 100px 0;
+  }
+
+  /* top section css end */
+
+  /* banner part css start */
+  .banner_content .banner_heading h4 {
+    font-size: 4.5rem;
+  }
+
+  .banner_content .banner_heading p {
+    font-size: 2.3rem;
+  }
+
+  /* banner part css end */
+
+  /* macbook row css start */
+  .mac_design.right img {
+    transform: translate(-115px, -75px);
+    width: 140px;
+  }
+
+  .mac_design.left img {
+    transform: translate(145px, 90px);
+    width: 200px;
+  }
+
+  /* macbook row css end */
+
+  /* service part css start */
+  .service_row .service_content {
+    margin-bottom: 35px;
+  }
+
+  .service_content h4 {
+    font-size: 2.6rem;
+  }
+
+  .service_content p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: #5d6981;
+  }
+
+  /* service part css end */
+
+  /* work part css start */
+  .work .work_heading h4 {
+    font-size: 4.5rem;
+  }
+
+  .work .work_heading p {
+    font-size: 2.2rem;
+  }
+
+  .work .work_text p:nth-child(2),
+  .work .work_text p:nth-child(3) {
+    display: none;
+  }
+
+  /* work part css end */
+
+  /* slider part css start */
+  .icon_left {
+    top: 0%;
+    left: 33%;
+    opacity: 0;
+  }
+
+  .icon_right {
+    top: 0%;
+    left: 60%;
+    opacity: 0;
+  }
+
+  /* slider part css end */
+
+  /* team part css start */
+  .team .team_img_box {
+    padding: 20px 10px;
+  }
+
+  .team .team_heading h4 {
+    font-size: 4.5rem;
+  }
+
+  .team .team_heading p {
+    font-size: 2.2rem;
+  }
+
+  /* team part css end */
+
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  ...
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* navbar part css start */
+  .navbar-brand img {
+    width: 180px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1.62rem;
+  }
+
+  /* navbar part css end */
+
+  /* macbook row css start */
+  .mac_design.left img {
+    transform: translate(140px, 105px);
+    width: 270px;
+  }
+
+  .mac_design.right img {
+    transform: translate(-145px, -105px);
+    width: 190px;
+  }
+
+  /* macbook row css end */
+
+  /* service part css start */
+  .service_row {
+    padding-top: 90px;
+  }
+
+  .service_row .service_content {
+    margin-bottom: 35px;
+  }
+
+  /* service part css end */
+
+  /* slider part css start */
+  .icon_left {
+    opacity: 0;
+  }
+
+  .icon_right {
+    opacity: 0;
+  }
+
+  /* slider part css end */
+
+  /* team part css start */
+  .team .team_img_box {
+    padding: 25px 10px;
+  }
+
+  /* team part css end */
+
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  ...
-}
+@media (min-width: 1200px) and (max-width: 2000px) {
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  ...
+  /* slider part css start */
+  .icon_left {
+    opacity: 0;
+  }
+
+  .icon_right {
+    opacity: 0;
+  }
+
+  /* slider part css end */
+
 }
